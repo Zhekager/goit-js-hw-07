@@ -32,14 +32,11 @@ const galleryPic = document.querySelector('#gallery');
 const element = images.map(pictures => {
   
   galleryPic.insertAdjacentHTML
-  ('beforeend', `<li><img src = "${pictures.url}" alt = "${pictures.alt}" width = "420" ></li>`);
+   ('beforeend', `<li><img src = "${pictures.url}" alt = "${pictures.alt}" width = "420" ></li>`);
 
 const imageEl = document.createElement('img');
  imageEl.style.display = 'flex';
- imageEl.style.margin = '30px';
-
-
- 
+  imageEl.style.margin = '30px';
 
   return imageEl;
 });

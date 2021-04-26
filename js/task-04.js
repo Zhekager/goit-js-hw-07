@@ -13,13 +13,10 @@ const buttons = document.querySelectorAll('#counter Button');
 
 const buttonDecrement = buttons[0];
 const buttonIncrement = buttons[1];
-
-   
+ 
 buttonDecrement.addEventListener('click', decrement);
 
 buttonIncrement.addEventListener('click', increment);
-
-
 
 function decrement(event) {  
     counterValue.textContent --;      

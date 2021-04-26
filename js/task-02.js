@@ -16,11 +16,11 @@ const ingredients = [
 const productListEl =  document.querySelector('#ingredients');
 
 const groceryList = ingredients.forEach(ingredient => {
-const itemProduct = document.createElement('li');
+   const itemProduct = document.createElement('li');
 
-  itemProduct.innerHTML = ingredient;
-  productListEl.append(itemProduct);
-  console.log(productListEl);
+    itemProduct.innerHTML = ingredient;
+     productListEl.append(itemProduct);
+      console.log(productListEl);
   } 
 );
 
