@@ -15,8 +15,6 @@
 Задание 2
 
 В HTML есть пустой список ul#ingredients.
-
-<ul id="ingredients"></ul>
 В JS есть массив строк.
 
 const ingredients = [
