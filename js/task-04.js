@@ -22,18 +22,18 @@ buttonIncrement.addEventListener('click', increment);
 buttonRemove.addEventListener('click', remove);
 
 function remove() {
-    values.textContent = '0';
+    counterValue.textContent = '0';
 }
 buttonRemove.style.display = 'flex';
 buttonRemove.style.width = '75px';
 buttonRemove.style.padding = '0px 20px';
 buttonRemove.style.marginTop = '5px';
 
-function decrement(event) {  
+function decrement() {  
     counterValue.textContent --;      
 };
 
-function increment(event) { 
+function increment() { 
     counterValue.textContent ++;  
     
 };
