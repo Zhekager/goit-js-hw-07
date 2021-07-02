@@ -13,10 +13,21 @@ const buttons = document.querySelectorAll('#counter Button');
 
 const buttonDecrement = buttons[0];
 const buttonIncrement = buttons[1];
+const buttonRemove = buttons[2];
  
 buttonDecrement.addEventListener('click', decrement);
 
 buttonIncrement.addEventListener('click', increment);
+
+buttonRemove.addEventListener('click', remove);
+
+function remove() {
+    values.textContent = '0';
+}
+buttonRemove.style.display = 'flex';
+buttonRemove.style.width = '75px';
+buttonRemove.style.padding = '0px 20px';
+buttonRemove.style.marginTop = '5px';
 
 function decrement(event) {  
     counterValue.textContent --;      
