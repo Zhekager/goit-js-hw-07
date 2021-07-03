@@ -31,6 +31,7 @@ const refs = {
   
         boxEl.style.width = 30 + i * 10 + 'px';
         boxEl.style.height = 30 + i * 10 + 'px';
+        boxEl.style.margin = '5px 5px';
   
         const r = Math.round(Math.random() * 255);
         const g = Math.round(Math.random() * 255);
